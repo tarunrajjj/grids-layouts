@@ -1,0 +1,336 @@
+body{
+display:grid;
+grid-template-columns: repeat(4,25vw);
+grid-template-rows: repeat(4,25vh);
+width: 100vw;
+height: 100vh;
+text-align: center;
+color: black;
+text-transform: capitalize;
+}
+.hello{
+    background-color: rgb(170, 39, 39);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 1/5;
+    grid-row: 1/2;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hi{
+    background-color: rgb(22, 204, 113);
+    border: 2px solid rgb(10, 12, 32);
+    grid-column: 1/2;
+    grid-row: 2/5;
+    margin-top: 2px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.how{
+    background-color: rgb(39, 52, 170);
+    border: 2px solid rgb(10, 12, 7);
+    grid-column: 2/4;
+    grid-row: 2/4;
+    margin-top: 2px;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.are{
+    background-color: rgb(149, 222, 235);
+    border: 2px solid rgb(18, 19, 17);
+    grid-column: 4/5;
+    grid-row: 2/5;
+    margin-top: 2px;
+    margin-left: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.you{
+    background-color: rgb(224, 111, 177);
+    border: 2px solid greenyellow;
+    grid-column: 2/4;
+    grid-row: 4/5;
+    margin-top: 2px;display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second{
+    display:grid;
+    grid-template-columns: repeat(4,25vw);
+    grid-template-rows: repeat(4,25vh);
+    width: 100vw;
+    height: 100vh;
+    margin-right: 2px;
+    text-transform: uppercase;
+}
+ .nav{
+    background-color: rgb(170, 39, 39);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-right: 2px;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.nav:hover{
+    background-color: azure;
+    color: black; 
+     text-shadow: 2px;
+     text-shadow: 3px 3px 5px rgba(224, 17, 138, 0.9);
+
+} 
+.nav1{
+    background-color: rgb(170, 39, 39);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-bottom: 0%;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.nav1:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(224, 17, 138, 0.9);
+
+}
+.nav2{
+    background-color: rgb(46, 15, 184);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-bottom: 0%;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.nav2:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(224, 17, 138, 0.9);
+}
+.nav3{
+    background-color: rgb(93, 216, 22);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-bottom: 0%;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.nav3:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(224, 17, 138, 0.9);
+
+}
+.nav4{
+    background-color: rgb(39, 111, 170);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 4/5;
+    grid-row: 1/2;
+    margin-bottom: 0%;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.nav4:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(224, 17, 138, 0.9);
+
+}
+.nav5{
+    background-color: rgb(181, 192, 21);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.nav5:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(224, 17, 138, 0.9);
+
+}
+.nav6{
+    background-color: rgb(204, 17, 120);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 2/4;
+    grid-row: 2/4;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.nav6:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(224, 17, 138, 0.9);
+
+}
+.nav7{
+    background-color: rgb(95, 10, 112);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 4/5;
+    grid-row: 2/3;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.nav7:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(224, 17, 138, 0.9);
+
+}
+.nav8{
+    background-color: rgb(241, 101, 155);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.nav8:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(224, 17, 138, 0.9);
+
+}
+.nav9{
+    background-color: rgb(15, 201, 15);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 4/5;
+    grid-row: 3/4;
+    margin-top: 2px;
+    margin-right: 2px;
+    margin-bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.nav9:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(224, 17, 138, 0.9);
+}
+.nav10{
+    background-color: rgb(185, 133, 19);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin-top: 2px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.nav10:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(224, 17, 138, 0.9);
+}
+.nav11{
+    background-color: rgb(147, 229, 202);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 2/3;
+    grid-row: 4/5;
+    margin-top: 2px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.nav11:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(224, 17, 138, 0.9);
+}
+.nav12{
+    background-color: rgb(250, 213, 92);
+    border: 2px solid rgb(23, 24, 21);
+    grid-column: 3/4;
+    grid-row: 4/5;
+    margin-top: 2px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+.nav12:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(224, 17, 138, 0.9);
+}
+.nav13{
+    background-color: rgb(209, 223, 15);
+    border: 2px solid rgb(23, 24, 21);
+    border-radius: 10%;
+    grid-column: 4/5;
+    grid-row: 4/5;
+    margin-top: 2px;
+    margin-right: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav13:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-shadow: 3px 3px 5px rgba(223, 24, 163, 0.7);
+}
